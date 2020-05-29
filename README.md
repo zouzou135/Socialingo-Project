@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Team members: Joseph Jreije and Elie Tannous
 
-## Available Scripts
+Moderator: Dr. Charbel Fakhry
 
-In the project directory, you can run:
+Socialingo is an application for practicing languages giving its users the ability to chat and socialize with native speakers (or professionals in the language). It also allows users to post sentences asking the community of the application about their correctness. Learners can test their vocabulary through randomly generated quizzes based on flashcards with categories and levels. Socialingo keeps the learners more interested by sending suggestions about books, songs and movies in the language they are learning.
 
-### `npm start`
+System Proposal
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Project Title: Socialingo
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Project Sponsor: Team Name: Joseph & Elie Team members: Joseph Jreije And Elie Tannous Moderator: Dr. Charbel Fakhry Department: Computer Science Phone: 76065915(J), 71341168(E) E-mail: joseph_jreije@hotmail.com, elie.a.tannous@std.balamand.edu.lb I- Introduction and goals A. Business Need: (overview of the project, what is the problem it solves) There aren’t many resources to practice languages so our project groups many functionalities to help users practice languages.
 
-### `npm test`
+B. Rational for choosing the project: When learning a new language, a lot of times we lose motivation or find it hard to find a way to practice the language and this app solves this problem by making it fun and social to practice languages. If someone wants to travel or immigrate to a country it is better if they practice its language with a native and get used to the informal way of speaking (because it is kind of different from what textbooks teach).
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+C. Functionalities: Chat with natives or experts in the language. Post sentences asking people if they are formulated correctly and get corrections (correction posts have an evaluation system for users to vote if it is helpful). Make flashcards with categories and take a randomly generated quiz based on the categories they choose. Get movies, songs and books suggestions.
 
-### `npm run build`
+D. Expected Value: Tangible: Database about language learners More movies, songs and books sales
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Intangible: Users learn languages more efficiently and are have fun while doing it
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+E. Special Issues or Constraints: Time: We probably won’t have enough time to complete everything and leave out the flashcard or the media suggestion features. Familiarity with the technology: We are not familiar with the APIs we’re going to use for movie and books. It is the first time we make a chat app so we are not very familiar with this kind of functionality.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+F. Business Plan (How this project is important to users) Make the user’s learning experience fun. Users learn informal language and dialects which are not taught in textbooks. Users practice vocabulary with organized flashcards to find specific words easily. There is a community that helps users, answers their questions and corrects their mistakes.
 
-### `npm run eject`
+G. The final product A language practicing application written in Javascript with React. Users database SRS document Final report
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+II- Plan of work A. The steps and timeline necessary to complete the project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+B. Facilities, Equipment and budget List here what do you need to complete your project Equipment: Our Laptops Budget: $0
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Feasibility Analysis
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Technical Feasibility: Can We Build It? • Familiarity with Application We are somewhat familiar with the application functionality, however there are challenges that are on the way like learning to make the chatting application and creating suggestions for users and also creating a post and ability to correct the post, however creating login, register, quizzes and manipulating the database will be easier because we worked on similar functionalities in previous projects.
 
-## Learn More
+• Familiarity with Technology Since our project is going to be in react which a technology that was introduced last semester in advances in computer science. We were able to get familiar with technology and understand its functionality due to the projects that we worked on.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• Project Size: the project size is 2. Elie Tannous and Joseph Jreije will work on the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Economic Feasibility: Should We Build It? • Development Costs: 0$
 
-### Code Splitting
+• Annual Operating Costs: 330$ server cost
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+• Annual Benefits (Cost Savings and Revenues): 400$ ads
 
-### Analyzing the Bundle Size
+• Intangible Costs and Benefits More users will increase our ads income Gaining popularity
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Organizational Feasibility: If We Build It, Will They Come? • Project Champion(s): Elie Tannous and Joseph Jreije
 
-### Making a Progressive Web App
+• Senior Management: Elie Tannous and Joseph Jreije
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+• Users: People who want to practice a language that they are learning
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+• Other Stakeholders
