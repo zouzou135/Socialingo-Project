@@ -40,40 +40,40 @@ class RouterNavigationSample extends React.Component {
                         path="/"
                         render={props => <Login {...props} />} />
 
-                    <Route exact path="/register" render={props => <Register {...props} />} />
-                    <Route exact path="/register2" render={props => <Register2 {...props} />} />
-                    <Route exact path="/register3" render={props => <Register3 {...props} />} />
-                    <Route exact path="/register4" render={props => <Register4 {...props} />} />
-                    <Route exact path="/profile" render={props => <Profile {...props} />} />
-                    <Route exact path="/chats" render={props => <Chats {...props} />} />
-                    <Route exact path="/chatBox" render={props => <ChatBox {...props} />} />
-                    <Route exact path="/chatHistory" render={props => <ChatsHistory {...props} />} />
-                    <Route exact path="/mediaM" render={props => <Movies {...props} />} />
-                    <Route exact path="/mediaS" render={props => <Songs {...props} />} />
-                    <Route exact path="/mediaN" render={props => <News {...props} />} />
-                    <Route exact path="/movieForm" render={props => <MovieForm {...props} />} />
-                    <Route exact path="/songForm" render={props => <SongForm {...props} />} />
+                    <Route path="/register" render={props => <Register {...props} />} />
+                    <Route path="/register2" render={props => <Register2 {...props} />} />
+                    <Route path="/register3" render={props => <Register3 {...props} />} />
+                    <Route path="/register4" render={props => <Register4 {...props} />} />
+                    <Route path="/profile" render={props => <Profile {...props} />} />
+                    <Route path="/chats" render={props => <Chats {...props} />} />
+                    <Route path="/chatBox" render={props => <ChatBox {...props} />} />
+                    <Route path="/chatHistory" render={props => <ChatsHistory {...props} />} />
+                    <Route path="/mediaM" render={props => <Movies {...props} />} />
+                    <Route path="/mediaS" render={props => <Songs {...props} />} />
+                    <Route path="/mediaN" render={props => <News {...props} />} />
+                    <Route path="/movieForm" render={props => <MovieForm {...props} />} />
+                    <Route path="/songForm" render={props => <SongForm {...props} />} />
                     {/* <Route path="/nav" render={props => <Nav {...props} />} /> */}
 
-                    <Route exact path="/flashcards" render={props => <Flashcard {...props} />} />
+                    <Route path="/flashcards" render={props => <Flashcard {...props} />} />
 
-                    <Route exact path="/flashcardForm" render={props => <FlashcardForm {...props} />} />
+                    <Route path="/flashcardForm" render={props => <FlashcardForm {...props} />} />
 
-                    <Route exact path="/quizForm" render={props => <QuizForm {...props} />} />
+                    <Route path="/quizForm" render={props => <QuizForm {...props} />} />
 
-                    <Route exact path="/quiz" render={props => <Quiz {...props} />} />
+                    <Route path="/quiz" render={props => <Quiz {...props} />} />
 
-                    <Route exact path="/search" render={props => <Search {...props} />} />
+                    <Route path="/search" render={props => <Search {...props} />} />
 
-                    <Route exact path="/flashcardPacks" render={props => <Comp1 {...props} />} />
+                    <Route path="/flashcardPacks" render={props => <Comp1 {...props} />} />
 
-                    <Route exact path="/FlashcardPackForm" render={props => <UserForm {...props} />} />
+                    <Route path="/FlashcardPackForm" render={props => <UserForm {...props} />} />
                     <Route
-                        exact path="/posts"
+                        path="/posts"
                         render={(props) => <PagePosts {...props} />}
                     />
                     <Route
-                        exact path="/post/:id"
+                        path="/post/:id"
                         render={(props) => <PagePost {...props} />}
                     />
                 </>
